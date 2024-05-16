@@ -1,9 +1,16 @@
 # Development of Flutter Applications for Power Engineering Solution Generation using Large Language Models
+The code implementation for this project as part of NTU dissertation requirement.
 
 ![alt text](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/assets/architecture.png)
-Work in progress...
 
-Contains 2 parts:
+As shown in the architecture, the overall system is divided into 3 Systems:
+System 1: The front-end flutter application, which will be the main form of communication between the user and the server. This system will contain all output data from the server and process it into user readable format.
+System 2: The Backend server, which is powered by GCP Compute Engine VM. The VM runs the ASGI server Uvicorn, which holds the web framework FastAPI. 
+System 3: LangChain/GenAI functions, which is the main backend feature of this project. These functions perform all communication with the LLM API model, extract data from the vector database, and perform solution generation and image recognition.
+
+For code implementation wise, System 1 is under the folder part1. System 2 and 3 are compiled under the folder part2.
+
 ## Part 1: Frontend Flutter Application
+Contains the front end flutter application of the project. Initially called as 'transmission_app', it is now converted to fit a wider purpose of this project.
 ## Part 2: Backend Server deployed on GCP compute engine
- 
+Contains the main python environment, files and data required for the server to operate. Note that the server runs on FastAPI via Uvicorn ASGI servers.
