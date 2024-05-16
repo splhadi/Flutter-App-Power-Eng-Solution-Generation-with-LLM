@@ -1,7 +1,9 @@
 # Development of Flutter Applications for Power Engineering Solution Generation using Large Language Models
 The code implementation for this project as part of NTU dissertation requirement.
 
-![alt text](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/assets/architecture.png)
+<p align="center">
+<img src="https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/assets/architecture.png" width ='600'   >
+ </p>
 
 As shown in the architecture, the overall system is divided into 3 Systems:
 1. System 1: The front-end flutter application, which will be the main form of communication between the user and the server. This system will contain all output data from the server and process it into user readable format.
