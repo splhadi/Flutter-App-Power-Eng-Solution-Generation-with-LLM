@@ -8,7 +8,7 @@ A flutter based application that was initially used to compute transmission line
 ## Solution generator
 ![alt text]( | width=10)
 
-<img src="[https://your-image-url.type](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/assets/1_sol_gen.png)" width="100" height="100">
+<img src="[https://your-image-url.type](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/assets/1_sol_gen.png)" width="100">
 The application's utility relies heavily on its ability to provide
 solutions. The image recognition component carefully processes the query or question supplied in the image. Afterwards, a thorough solution is created, providing users with a resolution to their query. This approach offers customers the ability to customise the presentation according to their tastes, allowing them to choose between LaTeX or text format.
  
