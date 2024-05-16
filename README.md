@@ -8,7 +8,7 @@ As shown in the architecture, the overall system is divided into 3 Systems:
 2. System 2: The Backend server, which is powered by GCP Compute Engine VM. The VM runs the ASGI server Uvicorn, which holds the web framework FastAPI. 
 3. System 3: LangChain/GenAI functions, which is the main backend feature of this project. These functions perform all communication with the LLM API model, extract data from the vector database, and perform solution generation and image recognition.
 
-For code implementation wise, System 1 is under the folder [Part 1:Flutter Application](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/tree/main/Part1_flutter_application). System 2 and 3 are compiled under the folder [Part 2:Server backend](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/tree/main/Part2_server_backend).
+For code implementation wise, System 1 is under the folder [Part 1: Flutter Application](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/tree/main/Part1_flutter_application). System 2 and 3 are compiled under the folder [Part 2: Server backend](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/tree/main/Part2_server_backend).
 
 This repo is divided into 2 parts, in which each system has been explained above. The two parts are shown below:
 ## Part 1: Frontend Flutter Application
