@@ -5,20 +5,36 @@ A flutter based application that was initially used to compute transmission line
 2. Chatbot
 3. Image recognition
 
-## Solution generator
-![alt text]( | width=10)
+## Main menu
 
-<img src="[https://your-image-url.type](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/assets/1_sol_gen.png)" width="100">
-The application's utility relies heavily on its ability to provide
-solutions. The image recognition component carefully processes the query or question supplied in the image. Afterwards, a thorough solution is created, providing users with a resolution to their query. This approach offers customers the ability to customise the presentation according to their tastes, allowing them to choose between LaTeX or text format.
+<p align="center">
+<img src="https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/assets/4_main_menu.png" width ='200'   >
+ </p>
+ 
+The main menu to access the subpages mentioned above. The dart file is called [main.dart](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/Part1_flutter_application/lib/main.dart/).
+
+## Solution generator
+
+<p align="center">
+<img src="https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/assets/1_sol_gen.png" width ='600'   >
+ </p>
+ 
+The subpage that performs image to text, followed by solution generation. The image recognition component carefully processes the query or question supplied in the image. Afterwards, a thorough solution is created, providing users with a resolution to their query. This approach offers customers the ability to customise the presentation according to their tastes, allowing them to choose between LaTeX or text format. The dart file is called [solver_page.dart](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/Part1_flutter_application/lib/solver_page.dart).
  
 ## Chatbot
-![alt_text](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/assets/2_chatbot.png)
-The application allows users to have conversations with a Language Model
-(LLM) that covers a wide range of academic disciplines. This interactive tool enables users to start conversations, ask questions, and seek clarification on certain academic topics of interest.
+<p align="center">
+<img src="https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/assets/2_chatbot.png" width ='600'   >
+ </p>
+ 
+A Subpage allows users to have conversations with a Language Model
+(LLM) that covers a wide range of academic disciplines. This interactive tool enables users to start conversations, ask questions, and seek clarification on certain academic topics of interest. The dart file is called [chatbot.dart](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/Part1_flutter_application/lib/chatbot.dart).
+
 ## Image Recognition
-![alt_text](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/assets/3_img_recogn.png)
-Users can utilise this feature to upload photographs for extensive evaluation. Based on the query submitted by the user, the system conducts a complex analysis of the visual content and produces a logical output that corresponds to the subject matter depicted
+<p align="center">
+<img src="https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/assets/3_img_recogn.png" width ='600'   >
+ </p>
+ 
+Based on the image to text in the Solution Generation subpage, it is expanded to allow prompts to be fed to the LLM. This allows users to utilise this feature to upload photographs for extensive evaluation. Based on the query submitted by the user, the system conducts a complex analysis of the visual content and produces a logical output that corresponds to the subject matter depicted. The dart file is called [bot_image_prompt.dart](https://github.com/splhadi/NTU_dissertation_Sol_Gen_LLM_with_flutter/blob/main/Part1_flutter_application/lib/bot_image_prompt.dart).
 
 ## Getting Started
 
