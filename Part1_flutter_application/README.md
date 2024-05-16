@@ -1,6 +1,9 @@
 # transmission_app
 
 A flutter based application that was initially used to compute transmission lines parameters. The scope of this project has been widened and now serve 3 main purposes:
+1. Solution generation
+2. Chatbot
+3. Image recognition
 
 ## Solution generator
 The application's utility relies heavily on its ability to provide
